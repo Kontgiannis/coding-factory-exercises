@@ -1,1 +1,1 @@
-Coding Factory Exercises
+Coding Factory Java Exercises
