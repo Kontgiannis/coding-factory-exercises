@@ -5,9 +5,7 @@ public class User {
      private String firstname;
     private String lastname;
 // Default constructor
-    public User() {
-
-    }
+    public User() {}
     // Overloaded constructor
     public User(Long id, String firstname, String lastname) {
         this.id = id;
