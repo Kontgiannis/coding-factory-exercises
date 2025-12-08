@@ -4,6 +4,7 @@ import java.math.*;
 
 /**
  * PointXYZ Java Bean
+ * Distance is counted from the beginig of the axis point (0,0,0)
  */
 
 public class PointXYZ {
