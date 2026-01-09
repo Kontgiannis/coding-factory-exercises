@@ -4,9 +4,17 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * This is a Contact Book where the user can add//have the contacts appear sorted by name/delete/search/modify a contacts info/
- * /exit app
- * shows a menu with the viable options and the user chooses one of them
+ * Simple Contact Book CLI app.
+ * Features: add contacts, list sorted by name, search (name prefix / phone), update, delete, exit.
+ *
+ * Architecture notes:
+ * - Model: Contact
+ * - Service: ContactBookService
+ * - UI: ContactBookApp (menu + input helpers)
+ * - Persistence: in-memory maps (acts as DAO/repository)
+ * - DTOs: not used here because this is a simple CLI app (no API/UI boundary).
+ *   DTOs become useful when exposing data to a GUI/web/API layer.
+ *
  * @author Giannis
  * @version 1.0.0
  */
